@@ -1,0 +1,218 @@
+
+
+.audit-img{
+	width: 85%;
+}
+.audit-title{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 900;
+	font-size: 300%;
+	color: #151c31;
+	color: #212548;
+}
+@media only screen and (max-width: 992px) {
+	.audit-title {
+    	text-align: center;
+  	}
+}
+
+
+.audit-section{
+	margin-top: 3%;
+}
+.download-report{
+	font-family: Quicksand, sans-serif;
+	font-weight: 600;
+	font-size: 90%;
+	color: #ffffff;
+	border: none;
+	border-radius: 10px;
+	padding: 15px 30px 15px 30px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4650d4+0,00c5ed+100 */
+	background: -webkit-linear-gradient(left,  rgba(255, 165, 0,1) 0%,rgba(255, 165, 0,1) 100%);
+	background: linear-gradient(to right,  rgba(70,80,212,1) 0%,rgba(255, 165, 0,1) 100%);
+
+	
+	/*background: -webkit-linear-gradient(left,  rgba(70,80,212,1) 0%,rgba(0,197,237,1) 100%);
+	background: linear-gradient(to right,  rgba(70,80,212,1) 0%,rgba(0,197,237,1) 100%);*/
+	box-shadow: 0px 8px 25px rgba(0, 197, 237,0.16);
+}
+.download-report:hover{
+	color: rgba(255,255,255,0.6);
+	box-shadow: 0px 8px 20px rgba(0,0,0,0.25) inset;
+}
+@media only screen and (max-width: 992px) {
+	.download-report {
+		display: block;
+    	text-align: center;
+    	margin-left: 0 auto;
+    	margin-right: 0 auto;
+  	}
+}
+.earn-section{
+	position: relative;
+	margin-top: 5%;
+}
+.earn-img{
+	width: 90%;
+}
+.section-title-earn{
+	color: #4183d7;
+	font-weight: 500;
+}
+.fees-img{
+	width: 90%;
+}
+.section-title-fees{
+	color: #6753ca;
+	font-weight: 600;
+}
+.chat-img{
+	width: 92%;
+}
+.section-title-join{
+	color: #4183d7;
+	font-weight: 600;
+}
+.join-telegram{
+	font-family: Quicksand, sans-serif;
+	font-weight: 600;
+	margin-top: 5%;
+	font-size: 90%;
+	color: #ffffff;
+	border: none;
+	border-radius: 10px;
+	padding: 15px 30px 15px 30px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4650d4+0,00c5ed+100 */
+		background: -webkit-linear-gradient(left,  rgba(255, 165, 0,1) 0%,rgba(255, 165, 0,1) 100%);
+	background: linear-gradient(to right,  rgba(70,80,212,1) 0%,rgba(255, 165, 0,1) 100%);
+
+	box-shadow: 0px 8px 25px rgba(0, 197, 237,0.16);
+}
+.join-telegram:hover{
+	color: rgba(255,255,255,0.6);
+	box-shadow: 0px 8px 20px rgba(0,0,0,0.25) inset;
+}
+@media only screen and (max-width: 992px) {
+	.join-telegram {
+		display: block;
+    	text-align: center;
+    	margin-left: 0 auto;
+    	margin-right: 0 auto;
+  	}
+}
+.lottery-img{
+	width: 90%;
+}
+.section-title-play{
+	color: #ca53b2;
+	font-weight: 600;
+}
+.lottery-list{
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 25px;
+	position: relative;
+	margin-top: 3%;
+	font-family: Ubuntu, sans-serif;
+	font-weight: 300;
+	font-size: 110%;
+	line-height: 32px;
+	color: rgba(170, 184, 228,0.57);
+	list-style-type: disc;
+}
+@media only screen and (max-width: 992px) {
+	.lottery-list{
+		font-size: 100%;
+	}
+}
+.play-button{
+	position: relative;
+	margin-top: 5%;
+	font-family: Quicksand, sans-serif;
+	font-weight: 600;
+	font-size: 90%;
+	color: #ffffff;
+	border: none;
+	border-radius: 10px;
+	padding: 15px 30px 15px 30px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4650d4+0,00c5ed+100 */
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4650d4+0,ca53b2+100 */
+		background: -webkit-linear-gradient(left,  rgba(255, 165, 0,1) 0%,rgba(255, 165, 0,1) 100%);
+	background: linear-gradient(to right,  rgba(70,80,212,1) 0%,rgba(255, 165, 0,1) 100%);
+
+	box-shadow: 0px 8px 25px rgba(202, 83, 178,0.16);
+}
+.play-button:hover{
+	color: rgba(255,255,255,0.6);
+	box-shadow: 0px 8px 20px rgba(0,0,0,0.25) inset;
+}
+@media only screen and (max-width: 992px) {
+	.play-button {
+		display: block;
+    	text-align: center;
+    	margin-left: 0 auto;
+    	margin-right: 0 auto;
+  	}
+}
+.roadmap-section{
+	position: relative;
+	margin-top: 10%;
+}
+.section-title-stars{
+	color: #4650d4;
+	font-weight: 600;
+}
+.roadmap-img{
+	width: 95%;
+}
+.footer-img{
+	width: 500px;
+	position: relative;
+	margin-bottom: -60px;
+}
+@media only screen and (max-width: 800px) {
+	.footer-img{
+    	width: 100%;
+  	}
+}
+@media only screen and (max-width: 768px) {
+	.mob-column-reverse {
+		flex-direction: column-reverse;
+	}
+}
+
+.section-title{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+	font-size: 140%;
+	color: #ffffff;
+}
+@media only screen and (max-width: 992px) {
+	.section-title {
+    	text-align: center;
+  	}
+}
+.section-title-audit{
+	color: #00f2a3;
+	font-weight: 500;
+}
+.section-text{
+	position: relative;
+	margin-top: 3%;
+	font-family: Ubuntu, sans-serif;
+	font-weight: 300;
+	font-size: 110%;
+	line-height: 32px;
+	color: rgba(170, 184, 228,0.37);
+}
+@media only screen and (max-width: 992px) {
+	.section-text {
+    	text-align: center;
+  	}
+}
+.section-text a{
+	text-decoration: none;
+	font-weight: 600;
+	color: #4183d7;
+}

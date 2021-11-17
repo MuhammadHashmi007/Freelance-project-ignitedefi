@@ -1,0 +1,118 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  background-color: #141945;
+  background: #061028;
+  background: #111129;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 99;
+}
+.sidebar-logo {
+  width: 150px;
+  margin-top: -40px;
+}
+.sidenav a {
+  text-decoration: none;
+  font-family: Quicksand, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #8eafe6;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 2px solid transparent;
+  transition: 0.8s ease-out color;
+  transition: 0.8s ease-out border-bottom;
+  padding: 0px;
+  margin-bottom: 20px;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.buy-pancakes {
+  width: 170px;
+  color: #ffffff !important;
+  padding: 10px 0px 10px 0px !important;
+  border-radius: 30px;
+  background: linear-gradient(
+    to right,
+    rgba(202, 83, 178, 1) 0%,
+    rgba(103, 83, 202, 1) 100%
+  );
+  box-shadow: 0px 8px 20px rgba(103, 83, 202, 0.12);
+  border: 0;
+}
+.buy-p2pb2b-btc {
+  width: 170px;
+  color: #ffffff !important;
+  padding: 10px 0px 10px 0px !important;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(103, 83, 202, 1) 0%,
+    rgba(70, 80, 212, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(103, 83, 202, 1) 0%,
+    rgba(70, 80, 212, 1) 100%
+  );
+  box-shadow: 0px 8px 20px rgba(65, 131, 215, 0.12);
+  border: 0;
+}
+.buy-p2pb2b-usdt {
+  width: 170px;
+  color: #ffffff !important;
+  padding: 10px 0px 10px 0px !important;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(70, 80, 212, 1) 0%,
+    rgba(0, 242, 163, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(70, 80, 212, 1) 0%,
+    rgba(0, 242, 163, 1) 100%
+  );
+  box-shadow: 0px 8px 20px rgba(34, 167, 240, 0.12);
+  border: 0;
+}
+.overlayBackground {
+  position: fixed;
+  top: 0;
+  right: 290px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.06);
+  z-index: 99;
+  visibility: hidden;
+}
+
+
+
+/*Slide In */
+.js-slidein{
+  opacity: 0;
+  transform: translateY(150px);
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.js-slidein-visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
