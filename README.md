@@ -1,3 +1,7 @@
-# pesita-lp
+#Ignite-defi
 
-Testing1
+Landing page
+bootstrap
+CSS
+JavaScript
+SCSS
